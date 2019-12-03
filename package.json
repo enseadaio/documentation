@@ -8,9 +8,13 @@
   "private": true,
   "scripts": {
     "start": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "clean": "rimraf .vuepress/dist"
   },
   "dependencies": {
     "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0"
   }
 }
