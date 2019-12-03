@@ -1,0 +1,16 @@
+{
+  "name": "enseada-docs",
+  "version": "0.1.0",
+  "description": "Enseada documentation website",
+  "repository": "git@github.com:enseadaio/documentation.git",
+  "author": "Matteo Joliveau <matteo.joliveau@mikamai.com>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "vuepress dev",
+    "build": "vuepress buil"
+  },
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
