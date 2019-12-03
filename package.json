@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "start": "vuepress dev",
-    "build": "vuepress buil"
+    "build": "vuepress build"
   },
   "dependencies": {
     "vuepress": "^1.2.0"
