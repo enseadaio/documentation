@@ -13,10 +13,13 @@ module.exports = {
     sidebar: {
       '/users/': [
         '',
+        'getting-started',
         'install',
-        'authentication',
+        'configuration',
+        'users',
         'authorization',
         'package-registries',
+        'storage',
         'ui',
       ],
       '/developers/': [
