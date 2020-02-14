@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logo-white.png
+heroImage: /enseada-logo.png
 actionText: Get Started
 actionLink: /users/
 features:
