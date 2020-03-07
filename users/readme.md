@@ -14,5 +14,4 @@ It offers:
 
 The server is written to be small and fast, and its only dependency is the database.
 It uses [CouchDB](https://couchdb.apache.org) to store data about users, repositories and access control, while
-delegating to the storage engine for reading and writing artifacts. Thanks to its completely stateless nature it can be horizontally scaled
-with ease, or to be replicated over multiple geographic regions.
+delegating to the storage engine for reading and writing artifacts. Thanks to its completely stateless nature it can be horizontally scaled with ease, or replicated over multiple geographic regions.
