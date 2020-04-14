@@ -7,9 +7,13 @@ module.exports = {
       { text: 'Users Guide', link: '/users/' },
       { text: 'Developers Guide', link: '/developers/' },
       { text: 'Website', link: 'https://enseada.io', target: '_blank' },
-      { text: 'Source code', link: 'https://github.com/enseadaio/enseada', target: '_blank' },
     ],
+    repo: 'enseadaio/enseada',
+    repoLabel: 'Source Code',
+    docsRepo: 'enseadaio/documentation',
+    editLinks: true,
     displayAllHeaders: true,
+    lastUpdated: 'Last Updated',
     sidebar: {
       '/users/': [
         '',
@@ -23,39 +27,16 @@ module.exports = {
         'ui',
       ],
       '/developers/': [
-        'apis',
+        '',
+        {
+          title: 'API Reference',
+          path: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/enseadaio/enseada/develop/docs/openapi.yml',
+        },
       ],
       '/': [
         '',
       ]
     },
-    // sidebar: [
-    //   {
-    //     title: 'Getting Started',
-    //     path: '/getting-started',
-    //   },
-    //   {
-    //     title: 'Install and Update',
-    //     path: '/install'
-    //   },
-    //   {
-    //     title: 'User Guide',
-    //     path: '/users/',
-    //     children: [
-    //       // 'authentication',
-    //       // 'authorization',
-    //       // 'package-registries',
-    //       // 'ui',
-    //     ]
-    //   },
-    //   {
-    //     title: 'Developer Guide',
-    //     path: '/developers/',
-        
-    //     children: [
-    //       'apis',
-    //     ]
-    //   },
-    // ]
-  }
+  },
+  plugins: ['@vuepress/register-components'],
 }
